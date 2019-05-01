@@ -1,0 +1,20 @@
+body{
+    margin: o auto;
+}
+.message{
+    text-align: center;
+    padding: 120px 0 0 0;
+}
+form{
+    text-align: center;
+    padding:  10px;
+}
+#userInput{
+    width: 30%;
+    height: 20%;
+    border-radius: 4px;
+}
+.display{
+    text-align: center;
+    padding: 60px;
+}

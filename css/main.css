@@ -1,0 +1,139 @@
+/* @font-face{ */
+    /* font-family: ubnutn; */
+    /* src: local(fonts/Ubuntu-Regular.ttf) */
+/* } */
+*
+    /* font-family: ubnutn; */
+
+nav{
+    position: relative;
+    background: url(https://az727346.vo.msecnd.net/content/images/texture-slate.png) 0 0 repeat #262524;
+    color: #fff;
+    font-family: ubnutu;
+    text-decoration: none;
+}
+.nav-item{
+    position: relative;
+    background: url(https://az727346.vo.msecnd.net/content/images/texture-slate.png) 0 0 repeat #262524;
+    color: #fff;
+}
+nav img {
+    width: 10%;
+    height: 5%;
+    color: #111;
+}
+.nav-item active{
+    color: #fff;
+    text-transform: uppercase;
+}
+nav a{
+    color: #fff;
+    text-transform: uppercase;
+}
+.dropdown-toggle::after {
+    display:none;
+}
+.dropdown-toggle{
+    color: #fff;
+}
+.main .main-img1{
+    padding-left: 50%;
+}
+.main .main-img2{
+    padding-right: 50%;
+}
+
+.main{
+    background: linear-gradient(rgba(175,175,175,.3) 0,rgba(56,56,56,.2) 100%)!important;
+    padding-top: 180px;
+}
+
+
+
+
+
+.card-group img{
+    width: -webkit-fill-available;
+    height: fit-content;
+}
+.card-group{
+    background-color: #fff;
+}
+.row .col-lg-4 p h5{
+    padding: 10px 0;
+}
+.order img{
+    width: 80%;
+    height: 60%;
+}
+.navbar-nav li a{
+    padding: 20px 0;
+}
+.col-lg-6 h5 p{
+    color:#fff; 
+}
+.blonde{
+    padding: 60px 120px;
+    font-size: 14px;
+}
+.need{
+    padding: 30px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+.here{
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+.check{
+    text-transform: uppercase;
+} 
+    
+hr{
+    border-top: 1px dotted;
+}
+#footer-pre{
+    position: relative;
+    background: url(https://az727346.vo.msecnd.net/content/images/texture-slate.png) 0 0 repeat #262524;
+    color: #fff;
+}
+#masterFooter{
+    position: relative;
+    background: url(https://az727346.vo.msecnd.net/content/images/texture-slate.png) 0 0 repeat #262524;
+    color: #fff;
+}
+label{
+    border: solid;
+    border-color: #ff2200;
+    background-color: #ff2200;
+}
+
+header{
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.form-control{
+    padding: 10px 20px;
+    font-size: 20px;
+    height: 50px;
+}
+.form-group{
+    border: #ff2200;
+}
+.form-row{
+    padding: 10px;
+}
+#secondary{
+    background: #fff;
+}
+.navbar-footer{
+    background: #fff;
+    font-size: 10px;
+    font-family: ubnutn;
+    font-weight: 700;
+}
+#secondary .nav-link{
+    color: #111;
+}

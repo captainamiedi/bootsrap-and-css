@@ -1,0 +1,89 @@
+@font-face{
+    font-family: arvo;
+    src: local(fonts/arvo-regular.ttf)
+}
+*{
+    font-family: arvo;
+}
+.main-sidebar{
+    height: 100%;
+    position: relative;
+    background: url(https://az727346.vo.msecnd.net/content/images/texture-slate.png) 0 0 repeat #262524;
+    font-family: arvo;
+    width: 30%;
+}
+nav img{
+    height: 30%;
+    width: 50%;
+    align-content: center;
+}
+.side1{
+    height: 300px;
+    background-image: url('../img/dinner_overlay.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.side2{
+    height: 150px;
+    color: #fff;
+    text-align: center;
+}
+.side3{
+    height: 100px;
+    color: #fff;
+    text-align: center;
+}
+.dropdown-toggle::after {
+    display:none;
+}
+.dropdown-toggle{
+    color: #111;
+    text-transform: uppercase;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.main-sidebar{
+    height: max-content;
+}
+.yummy{
+    background-image: url('../img/190123-bbpd-steak-lobster-specials-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yummy2{
+    text-align: center;
+    height: 400px;
+    color: #fff;
+    padding-top: 80px;
+}
+.btn1{
+    padding-top: 30px;
+}
+.btn{
+    padding-top: 20px;
+}
+.sweet{
+    background-image: url('../img/walkabout-wednesdays-specials-menu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sweet2{
+    text-align: center;
+    height: 400px;
+    color: #fff;
+    padding-top: 80px;
+}
+.soft{
+    background-image: url('../img/bone-in-ribeye-specials.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.soft2{
+    text-align: center;
+    height: 400px;
+    color: #fff;
+    padding-top: 80px;
+}
