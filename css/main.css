@@ -3,13 +3,15 @@
     /* src: local(fonts/Ubuntu-Regular.ttf) */
 /* } */
 *
-    /* font-family: ubnutn; */
+    {
+        font-family: 'Lato', sans-serif;
+    }
 
 nav{
     position: relative;
     background: url(https://az727346.vo.msecnd.net/content/images/texture-slate.png) 0 0 repeat #262524;
     color: #fff;
-    font-family: ubnutu;
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
 }
 .nav-item{
@@ -37,20 +39,18 @@ nav a{
     color: #fff;
 }
 .main .main-img1{
-    padding-left: 50%;
+    position: relative;
+    left: 135px;;
 }
 .main .main-img2{
-    padding-right: 50%;
+    position: relative;
+    right: 120px;
 }
 
 .main{
     background: linear-gradient(rgba(175,175,175,.3) 0,rgba(56,56,56,.2) 100%)!important;
-    padding-top: 180px;
+    padding-top: 30px;
 }
-
-
-
-
 
 .card-group img{
     width: -webkit-fill-available;
@@ -103,10 +103,15 @@ hr{
     background: url(https://az727346.vo.msecnd.net/content/images/texture-slate.png) 0 0 repeat #262524;
     color: #fff;
 }
-label{
+#masterFooter p {
+    padding: 0px 10px;
+    font-size: 12px;
+}
+#masterFooter label{
     border: solid;
     border-color: #ff2200;
     background-color: #ff2200;
+    padding: 0px 10px;
 }
 
 header{
@@ -131,9 +136,23 @@ header{
 .navbar-footer{
     background: #fff;
     font-size: 10px;
-    font-family: ubnutn;
+    font-family: 'Lato', sans-serif;;
     font-weight: 700;
+    position: relative;
+    text-align: center;
 }
 #secondary .nav-link{
     color: #111;
+}
+a.nav-link{
+    padding: 20px 5px;
+    text-align: center;
+    
+}
+li.nav-item.dropdown{
+    padding: 0px 15px;
+}
+
+li.nav-item.dropdown-toggle::after{
+    text-decoration: none;
 }
